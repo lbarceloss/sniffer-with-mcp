@@ -1,3 +1,9 @@
+Eu sempre achei que criar um MCP era algo extremamente complicado. Até que ontem resolvi sentar, estudar e descobrir como ele realmente funciona.
+
+No fim das contas, existe uma biblioteca Python chamada mcp que faz praticamente todo o trabalho pesado.
+
+Para testar, peguei como base um projeto qualquer da internet, adaptei quase tudo e montei meu primeiro MCP para usar aqui. Foi muito mais simples do que eu imaginava.
+
 # Ghost Sniffer
 
 **A plaintext PangYa packet sniffer, written by the server owner — from *inside* the server.**
