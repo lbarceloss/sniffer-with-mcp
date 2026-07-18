@@ -27,8 +27,8 @@ The result: **100% of the bytes, both directions, no decryption, no heuristics**
 ## Architecture
 
 ```
-   ┌────────────────┐   plaintext frames (TCP 9931)   ┌──────────────────┐
-   │  Game Server   │  ─────────────────────────────► │  Ghost Sniffer   │
+   ┌────────────────┐   plaintext frames (TCP 9931)    ┌──────────────────┐
+   │  Game Server   │  ─────────────────────────────►  │  Ghost Sniffer   │
    │  (the TAP)     │   the APP listens, taps connect  │  (ImGui / DX11)  │
    └────────────────┘                                  └──────────────────┘
         connects out                                    listens :9931 (taps)
