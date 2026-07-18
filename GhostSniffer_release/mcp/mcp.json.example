@@ -1,9 +1,0 @@
-{
-  "_comment": "Optional: lets Claude Code query the live capture. Copy the 'pangya-sniffer' block into your project's .mcp.json and fix the path to sniffer_mcp.py. Needs Python 3 (stdlib only, zero pip installs). Ghost Sniffer must be running (it hosts the query port 9932).",
-  "mcpServers": {
-    "pangya-sniffer": {
-      "command": "python",
-      "args": ["C:\\path\\to\\GhostSniffer\\mcp\\sniffer_mcp.py"]
-    }
-  }
-}
